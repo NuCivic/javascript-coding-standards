@@ -396,6 +396,8 @@ var makeCube = function (owner, options) {
   ...
 });
 ```
+###  Commas
+Use trailing commas.
 
 * Keep the most important arguments in the signature (eg, owner above). Ideally, the arguments in the signature are the "cake" (the main substance and structure of the operation), and the options are the "icing" (frills and modifiers).
 
