@@ -112,7 +112,7 @@ console.log(Object.prototype.toString.call(variable) === '[object Object]');
 console.log(typeof variable === 'function');
 ```
 
-⬆ back to top
+[⬆ back to top](#)
 
 
 Objects
@@ -207,7 +207,7 @@ var associative = Object.create(null);
 associative['name'] = 'this is better';
 ```
 
-⬆ back to top
+[⬆ back to top](#)
 
 Array and Object initializers
 -------------------------------------------------------------------------------
@@ -231,7 +231,7 @@ var inset = {
 };
 ```
 
-⬆ back to top
+[⬆ back to top](#)
 
 
 Strings
@@ -314,7 +314,7 @@ function inbox(messages) {
 }
 ```
 
-⬆ back to top
+[⬆ back to top](#)
 
 
 Functions
@@ -374,7 +374,7 @@ function printHello(){
 }
 ```
 
-⬆ back to top
+[⬆ back to top](#)
 
 Arguments
 -------------------------------------------------------------------------------
@@ -396,14 +396,20 @@ var makeCube = function (owner, options) {
   ...
 });
 ```
-###  Commas
+
+[⬆ back to top](#)
+
+
+Commas
+-------------------------------------------------------------------------------
+
 Use trailing commas.
 
 * Keep the most important arguments in the signature (eg, owner above). Ideally, the arguments in the signature are the "cake" (the main substance and structure of the operation), and the options are the "icing" (frills and modifiers).
 
 * When possible, all function arguments should be listed on the same line.
 
-⬆ back to top
+[⬆ back to top](#)
 
 
 Properties
@@ -451,7 +457,7 @@ luke['view-map'] = 1;
 var map = luke['view-map'];
 ```
 
-⬆ back to top
+[⬆ back to top](#)
 
 
 Variables
@@ -569,7 +575,7 @@ function() {
 }
 ```
 
-⬆ back to top
+[⬆ back to top](#)
 
 Parenthesis
 -------------------------------------------------------------------------------
@@ -587,7 +593,7 @@ function toggle(t){
 }
 ```
 
-⬆ back to top
+[⬆ back to top](#)
 
 
 Conditional Expressions & Equality
@@ -637,7 +643,7 @@ return event ? handleEvent(event) : null;
 
 * `a && b || c`. This is an idiom borrowed from Python. It does the same thing as `a ? b : c`, except that if `a` and `b` are both false, it returns `c`. You should use `a && b || c` only where `a ? b : c` won't do the job.
 
-⬆ back to top
+[⬆ back to top](#)
 
 
 Blocks
@@ -684,7 +690,7 @@ if (test) return false;
 
 ```
 
-⬆ back to top
+[⬆ back to top](#)
 
 
 Explicit scope
@@ -701,7 +707,7 @@ globalvariable = 1;
 window.globalvariable = 1;
 ```
 
-⬆ back to top
+[⬆ back to top](#)
 
 
 Loops
@@ -744,7 +750,7 @@ for(var k = 0, l = list.length; k < l ; k++){
 }
 ```
 
-⬆ back to top
+[⬆ back to top](#)
 
 Wrapper Objects
 -------------------------------------------------------------------------------
@@ -771,7 +777,7 @@ var obj = {};
 var arr = [];
 ```
 
-⬆ back to top
+[⬆ back to top](#)
 
 
 Built-in object prototypes
@@ -786,7 +792,7 @@ String.prototype.capitalize = function() { /* ... */ };
 function capitalize(){ /* ... */};
 ```
 
-⬆ back to top
+[⬆ back to top](#)
 
 
 Errors and Exceptions
@@ -797,7 +803,7 @@ Errors and Exceptions
 
 * Use callbacks if the error is the result of an async operation. 
 
-⬆ back to top
+[⬆ back to top](#)
 
 
 Comments
@@ -921,7 +927,7 @@ function foo(veryDescriptiveArgumentNumberOne, veryDescriptiveArgumentTwo,
 
 ```
 
-⬆ back to top
+[⬆ back to top](#)
 
 
 Spaces
@@ -1006,7 +1012,7 @@ var x = y + 5;
 })(this);↵
 ```
 
-⬆ back to top
+[⬆ back to top](#)
 
 
 Commas
@@ -1070,7 +1076,7 @@ var hero = {
   ];
 ```
 
-⬆ back to top
+[⬆ back to top](#)
 
 
 Semicolons
@@ -1098,14 +1104,14 @@ Semicolons
 })();
 ```
 
-⬆ back to top
+[⬆ back to top](#)
 
 Line lenght
 -------------------------------------------------------------------------------
 
 * 80 characters is the maximum. It's OK to occasionally go over 80 characters if it substantially improves later indentation, or if there is no good way to break the line.
 
-⬆ back to top
+[⬆ back to top](#)
 
 
 Type Casting & Coercion
@@ -1141,7 +1147,7 @@ var hasAge = Boolean(age);
 var hasAge = !!age;
 ```
 
-⬆ back to top
+[⬆ back to top](#)
 
 
 Naming Conventions
@@ -1260,7 +1266,7 @@ var log = function log(msg) {
 
 * In summary, use functionNamesLikeThis, variableNamesLikeThis, ClassNamesLikeThis, EnumNamesLikeThis, methodNamesLikeThis, CONSTANT_VALUES_LIKE_THIS, foo.namespaceNamesLikeThis.bar, and file.names.like.this.js.
 
-⬆ back to top
+[⬆ back to top](#)
 
 
 Accessors
@@ -1298,7 +1304,7 @@ if (!dragon.hasAge()) {
 }
 ```
 
-⬆ back to top
+[⬆ back to top](#)
 
 
 Constructors
@@ -1383,7 +1389,7 @@ Jedi.prototype.toString = function toString() {
 };
 ```
 
-⬆ back to top
+[⬆ back to top](#)
 
 
 Events
@@ -1415,7 +1421,7 @@ $(this).on('listingUpdated', function(e, data) {
 });
 ```
 
-⬆ back to top
+[⬆ back to top](#)
 
 
 Modules
@@ -1510,7 +1516,7 @@ $('.sidebar > ul').hide();
 $sidebar.find('ul').hide();
 ```
 
-⬆ back to top
+[⬆ back to top](#)
 
 Underscore / LoDash
 -------------------------------------------------------------------------------
@@ -1542,7 +1548,7 @@ _.map([1, 2, 3], function(n){ return n * 2; });
 
 * When underscore is present use it to iterate over list and transform data over for and for-in loops.
 
-⬆ back to top
+[⬆ back to top](#)
 
 
 Don't use
@@ -1554,7 +1560,7 @@ Don't use
 * `caller`. This feature is non-standard and is not on a standards track. Do not use it on production sites facing the Web: it will not work for every user. There may also be large incompatibilities between implementations and the behavior may change in the future.
 * `callee`.  The 5th edition of ECMAScript (ES5) forbids use of arguments.callee() in strict mode. Avoid using arguments.callee() by either giving function expressions a name or use a function declaration where a function must call itself.
 
-⬆ back to top
+[⬆ back to top](#)
 
 
 Tools
@@ -1563,14 +1569,14 @@ Tools
 (Sublime Text)[www.sublimetext.com/3] or you prefered editor.
 (Grunt)[http://gruntjs.com/]
 
-⬆ back to top
+[⬆ back to top](#)
 
 
 Sublime text plugins
 ------------------------------------------------------------------------------
 (Dockblockr)[https://github.com/spadgos/sublime-jsdocs]
 
-⬆ back to top
+[⬆ back to top](#)
 
 
 Sources
@@ -1579,7 +1585,7 @@ https://google-styleguide.googlecode.com/svn/trunk/javascriptguide.xml
 https://github.com/airbnb/javascript
 https://github.com/meteor/meteor/wiki/Meteor-Style-Guide
 
-⬆ back to top
+[⬆ back to top](#)
 
 License
 -------------------------------------------------------------------------------
@@ -1594,4 +1600,4 @@ The above copyright notice and this permission notice shall be included in all c
 
 THE SOFTWARE IS PROVIDED 'AS IS', WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
-⬆ back to top
+[⬆ back to top](#)
